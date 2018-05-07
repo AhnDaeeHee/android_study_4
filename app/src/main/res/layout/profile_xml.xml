@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/ProfileView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/abc_btn_radio_to_on_mtrl_015" />
+    <TextView
+        android:id="@+id/ProfileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ProfileView"
+        android:textColor="#000"
+        android:text="세글자"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/ProfileText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="원산지"
+        android:textColor="#000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</RelativeLayout>
